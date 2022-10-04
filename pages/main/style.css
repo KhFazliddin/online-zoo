@@ -14,6 +14,9 @@
 .logo {
   position: absolute;
 }
+footer {
+  display: none;
+}
 header {
   max-width: 1600px;
   padding: 0 220px;
@@ -302,7 +305,7 @@ main .backstage_section img {
       #eaf7fe 149.54%
     );
   opacity: 0.9;
-  padding: 70px 220%;
+  padding: 70px 220px;
 }
 .pick_friend_card {
   width: 90%;
@@ -663,7 +666,9 @@ progress {
     background-image: url(../../assets/images/Pandaformobile.svg);
     padding: 20px;
   }
-
+  .logo {
+    margin-right: 146px;
+  }
   .banner .banner-ellipse {
     background-image: url("../../assets/images/Ellipseformobile.svg");
     width: 119px;
@@ -1011,7 +1016,7 @@ progress {
     line-height: 140%;
     color: #ffffff;
   }
-}
-@media screen and (max-width: 320px) {
-  
+  footer {
+    display: block;
+  }
 }
