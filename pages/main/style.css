@@ -673,8 +673,13 @@ footer {
 }
 
 /* Mobile siz responsive   */
+/* Mobile siz responsive   */
+/* Mobile siz responsive   */
+/* Mobile siz responsive   */
+/* Mobile siz responsive   */
+/* Mobile siz responsive   */
 
-@media screen and (max-width: 321px) {
+@media screen and (min-width: 320px) and (max-width: 639px) {
   .smP {
     display: block;
     font-family: "Roboto";
@@ -691,7 +696,8 @@ footer {
     height: 34px;
     padding: 0 10px;
     width: 100%;
-    max-width: 321px;
+    min-width: 320px;
+    max-width: 639px;
   }
   header .logo {
     top: 13px;
@@ -714,7 +720,8 @@ footer {
 
   .banner {
     /* max-width: 1600px; */
-    max-width: 320px;
+    min-width: 320px;
+    max-width: 639px;
     height: 186.96px;
     background-image: url(../../assets/images/Pandaformobile.svg);
     padding: 20px;
@@ -963,20 +970,22 @@ footer {
 /* table responsive------ */
 /* table responsive------ */
 /* table responsive------ */
-@media screen and (min-width: 321px) and (max-width: 641px) {
+@media screen and (min-width: 640px) and (max-width: 999px) {
   .smP {
     font-weight: 300;
     font-size: 15px;
     line-height: 120%;
     color: #4f4f4f;
     margin-top: 10px;
+    max-width: 999px;
   }
 
   header {
     height: 40px;
     padding: 3px 20px;
     width: 100%;
-    max-width: 641px;
+    min-width: 640px;
+    max-width: 999px;
   }
   header .logo {
     top: 13px;
@@ -1003,7 +1012,8 @@ footer {
   .banner {
     /* max-width: 1600px; */
     width: 100%;
-    max-width: 640px;
+    min-width: 640px;
+    max-width: 999px;
     height: 340.96px;
     background-image: url(../../assets/images/Pandaformobile.svg);
     padding: 20px;
@@ -1163,6 +1173,9 @@ footer {
     grid-gap: 15px;
     justify-content: center;
   }
+  .every_feedback {
+    width: 100%;
+  }
   .testimonials_person .text_feedback {
     display: none;
   }
@@ -1264,7 +1277,7 @@ footer {
 /* small desktop responsive--------*/
 /* small desktop responsive--------*/
 /* ----------------------------- */
-@media screen and (min-width: 641px) and (max-width: 1001px) {
+@media screen and (min-width: 1000px) and (max-width: 1599px) {
   .smP {
     display: none;
   }
@@ -1273,7 +1286,8 @@ footer {
   }
 
   header {
-    max-width: 1001px;
+    min-width: 1000px;
+    max-width: 1599px;
     padding: 14px 30px;
   }
 
@@ -1286,7 +1300,8 @@ footer {
   .banner {
     /* max-width: 1600px; */
 
-    max-width: 1000px;
+    min-width: 1000px;
+    max-width: 1599px;
     height: 800px;
     padding: 0 84px;
   }

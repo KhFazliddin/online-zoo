@@ -474,12 +474,14 @@ footer {
 }
 
 /* phone size responsive----- ------------ */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 639px) {
   header {
     height: 34px;
     padding: 0 10px;
     width: 100%;
     /* width: 320px; */
+    min-width: 320px;
+    max-width: 639px;
   }
   header .logo {
     top: 13px;
@@ -503,6 +505,8 @@ footer {
   .banner {
     /* max-width: 1600px; */
     /* max-width: 320px; */
+    min-width: 320px;
+    max-width: 639px;
     height: 186.96px;
     background-image: url(../../assets/images/panda_bg_mob.png);
     padding: 20px;
@@ -620,6 +624,8 @@ footer {
   /* Footer  container mobile */
   footer {
     padding: 20px 10px;
+    min-width: 320px;
+    max-width: 639px;
   }
   .footer_container {
     flex-direction: column;
@@ -680,12 +686,14 @@ footer {
 
 /* tablet size responsive---------- */
 
-@media screen and (min-width: 321px) and (max-width: 640px) {
+@media screen and (min-width: 640px) and (max-width: 999px) {
   header {
     height: 34px;
     padding: 0 10px;
     width: 100%;
     /* width: 320px; */
+    min-width: 640px;
+    max-width: 999px;
   }
   header .logo {
     top: 13px;
@@ -712,6 +720,8 @@ footer {
     height: 335px;
     background-image: url(../../assets/images/panda_bg_mob.png);
     padding: 20px;
+    min-width: 640px;
+    max-width: 999px;
   }
 
   .banner .banner-ellipse {
@@ -751,6 +761,8 @@ footer {
   /* Pick  container */
 
   .pickContainer {
+    min-width: 640px;
+    max-width: 999px;
     padding: 20px 10px;
   }
   .pick_feed_container {
@@ -837,6 +849,8 @@ footer {
 
   /* Footer  container mobile */
   footer {
+    min-width: 640px;
+    max-width: 999px;
     padding: 20px;
   }
   .footer_container {
@@ -908,7 +922,7 @@ footer {
     line-height: 35px;
   }
 }
-@media screen and (min-width: 640px) and (max-width: 1001px) {
+@media screen and (min-width: 1000px) and (max-width: 1599px) {
   .smP {
     display: none;
   }
@@ -917,7 +931,8 @@ footer {
   }
 
   header {
-    max-width: 1001px;
+    min-width: 1000px;
+    max-width: 1599px;
     padding: 14px 30px;
   }
 
@@ -928,6 +943,8 @@ footer {
 
   .banner {
     height: 390px;
+    min-width: 1000px;
+    max-width: 1599px;
   }
 
   /* body_section */
@@ -948,6 +965,8 @@ footer {
     padding: 60px 30px;
   }
   .pick_feed_container {
+    min-width: 1000px;
+    max-width: 1599px;
     padding: 20px 44px;
   }
   .pick_feed_container h1 {
@@ -974,17 +993,11 @@ footer {
     margin-top: 28px;
   }
 
- 
- 
-
-
-
-  
- 
   /* footer_section */
 
- 
   footer {
+    min-width: 1000px;
+    max-width: 1599px;
     padding: 40px 30px;
   }
 
