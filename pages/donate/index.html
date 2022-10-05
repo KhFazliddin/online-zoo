@@ -10,16 +10,16 @@
   <body>
     <header>
       <div class="header_left">
-        <a href="../online-zoo-part/index.html">
+        <a href="../../index.html">
           <h1>PetStory online</h1>
         </a>
         <img class="logo" src="./assets//images/bamboo.png" alt="" />
         <div class="header_links">
-          <a class="active" href="./pages/about/">About</a>
-          <a href="./pages/map/">Map</a>
-          <a href="./pages/zoo/">Zoos</a>
-          <a href="./pages/donate/">Donate</a>
-          <a href="./pages/contact/">Contact us</a>
+          <a class="active" href="#">About</a>
+          <a href="#">Map</a>
+          <a href="#">Zoos</a>
+          <a href="./index.html">Donate</a>
+          <a href="#">Contact us</a>
         </div>
       </div>
       <div class="header_right">
@@ -36,12 +36,9 @@
     </header>
     <!-- banner----------- -->
     <div class="banner">
-      <div class="banner-ellipse"></div>
+  
       <!-- <img src="./assets/images/EllipseBig.png" alt="" /> -->
-      <div class="banner_text">
-        <h1>Watch your <span>favorite</span> animal online</h1>
-        <a href="#">Watch Online</a>
-      </div>
+     
     </div>
     <!--  Donation section----------------- -->
 
@@ -76,12 +73,12 @@
             <h3>x</h3>
             <img src="../../assets//images/panda_donation.png" alt="" />
           </div>
-          <p>Amount</p>
+          <p class="mob_p">Amount</p>
           <div class="range_food">
             <div class="range_line">
-              <div class="range_dots"></div>
-              <div class="range_dots"></div>
-              <div class="range_dots"></div>
+              <div class="range_dots mob smalldes"></div>
+              <div class="range_dots mob"></div>
+              <div class="range_dots mob"></div>
               <div class="range_dots"></div>
               <div class="range_dots"></div>
               <div class="range_dots"></div>
@@ -90,9 +87,9 @@
             </div>
           </div>
           <div class="range_moneys">
-            <h3>5000$</h3>
-            <h3>2000$</h3>
-            <h3>1000$</h3>
+            <h3 class="mob smalldes">5000$</h3>
+            <h3 class="mob">2000$</h3>
+            <h3 class="mob">1000$</h3>
             <h3>500$</h3>
             <h3>250$</h3>
             <h3>100$</h3>
@@ -134,9 +131,9 @@
         </div>
       </div>
     </div>
-    <div class="footer_container">
-      <div class="left_footer">
-        <div class="header_left">
+    <footer>
+      <div class="footer_container">
+        <div class="footer_left">
           <a href="#"
             ><h1>
               PetStory
@@ -144,34 +141,54 @@
               online
             </h1></a
           >
-        </div>
-        <button class="donate_button">
-          <a href="../donate/index.html">donate for volunteers</a>
-        </button>
 
-        <div class="social_network">
-          <a href="#"><img src="./assets//images/facebook.png" alt="" /></a>
-          <a href="#"><img src="./assets//images/twitter.png" alt="" /></a>
-          <a href="#"><img src="./assets//images/instagram.png" alt="" /></a>
-          <a href="#"><img src="./assets//images/youtube.png" alt="" /></a>
+          <a class="donate_button" href="../donate/index.html"
+            >donate for volunteers</a
+          >
+
+          <div class="footer_social_network">
+            <a href="#"
+              ><img src="../../assets//images/facebook.svg" alt="" />
+              <span>Facebook</span>
+            </a>
+            <a href="#"
+              ><img src="../../assets//images/twitter.svg" alt="" />
+              <span>Twitter</span>
+            </a>
+            <a href="#"
+              ><img src="../../assets//images/instagram.svg" alt="" />
+              <span>Instagram</span>
+            </a>
+            <a href="#"
+              ><img src="../../assets//images/youtube.svg" alt="" />
+              <span>YouTube</span>
+            </a>
+          </div>
+        </div>
+        <!-- footer center -->
+        <div class="footer_center">
+          <a class="active" href="#">About</a>
+          <a href="#">Map</a>
+          <a href="#">Zoos</a>
+          <a href="#">Contact us</a>
+        </div>
+        <div class="footer_right">
+          <div class="footer_right_top">
+            <h1>Subscribe to our news</h1>
+            <div class="submit_container">
+              <input class="text" placeholder="Enter your email" type="text" />
+              <button type="submit">Submit</button>
+            </div>
+          </div>
+          <div class="footer_right_bottom">
+
+            <p>
+              Designed by Alisa Samborskaya <br />©RSSchool & ©Yem Digital 2021
+            </p>
+          </div>
         </div>
       </div>
-      <div class="header_center">
-        <a class="active" href="../about">About</a>
-        <a href="./pages/map">Map</a>
-        <a href="./pages/zoo/">Zoos</a>
-        <a href="#">Donate</a>
-        <a href="./pages/contact/">Contact us</a>
-      </div>
-      <div class="subscribe_container">
-        <h1>Subscribe to our news</h1>
-        <div class="submit_container">
-          <input class="text" placeholder="Enter your email" type="text" />
-          <button type="submit">Submit</button>
-        </div>
-        <p>Designed by Alisa Samborskaya <br />©RSSchool & ©Yem Digital 2021</p>
-      </div>
-    </div>
+    </footer>
     <script src="./script.js"></script>
   </body>
 </html>
