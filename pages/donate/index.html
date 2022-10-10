@@ -15,7 +15,7 @@
         </a>
         <img class="logo" src="./assets//images/bamboo.png" alt="" />
         <div class="header_links">
-          <a class="active" href="#">About</a>
+          <a class="actives" href="#">About</a>
           <a href="#">Map</a>
           <a href="#">Zoos</a>
           <a href="./index.html">Donate</a>
@@ -36,9 +36,7 @@
     </header>
     <!-- banner----------- -->
     <div class="banner">
-  
       <!-- <img src="./assets/images/EllipseBig.png" alt="" /> -->
-     
     </div>
     <!--  Donation section----------------- -->
 
@@ -76,14 +74,20 @@
           <p class="mob_p">Amount</p>
           <div class="range_food">
             <div class="range_line">
-              <div class="range_dots mob smalldes"></div>
-              <div class="range_dots mob"></div>
-              <div class="range_dots mob"></div>
-              <div class="range_dots"></div>
-              <div class="range_dots"></div>
-              <div class="range_dots"></div>
-              <div class="range_dots"></div>
-              <div class="range_dots"></div>
+              <div class="border_range_dot active">
+                <div class="range_dots"></div>
+              </div>
+              <div class="border_range_dot">
+                <div class="range_dots mob"></div>
+              </div>
+              <div class="border_range_dot">
+                <div class="range_dots mob"></div>
+              </div>
+
+              <div class="border_range_dot"><div class="range_dots"></div></div>
+              <div class="border_range_dot"><div class="range_dots"></div></div>
+              <div class="border_range_dot"><div class="range_dots"></div></div>
+              <div class="border_range_dot"><div class="range_dots"></div></div>
             </div>
           </div>
           <div class="range_moneys">
@@ -98,7 +102,12 @@
           </div>
           <div class="feed_submit_container">
             <div class="input_amount">
-              <input type="number" name="" id="" placeholder="Another amount" />
+              <input
+                maxlength="4"
+                type="number"
+                oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                placeholder="Another amount"
+              />
               <img src="../../assets/icons/dollar.svg" alt="dollar" />
             </div>
             <div class="range_payment">
@@ -181,7 +190,6 @@
             </div>
           </div>
           <div class="footer_right_bottom">
-
             <p>
               Designed by Alisa Samborskaya <br />©RSSchool & ©Yem Digital 2021
             </p>
