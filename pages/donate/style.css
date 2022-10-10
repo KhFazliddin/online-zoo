@@ -54,7 +54,7 @@ header a {
   margin-right: 58px;
   text-decoration: none;
 }
-.header_left a.active {
+.header_left a.actives {
   color: #f9804b;
 }
 header a:hover {
@@ -200,13 +200,28 @@ body {
   justify-content: space-between;
   padding: 0 26px;
 }
+.border_range_dot{
+  height: 30px;
+  width: 30px;
+
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.active{
+  border:1px solid yellow;
+}
 .range_line .range_dots {
   height: 10px;
   width: 10px;
   background-color: #ffee2e;
   border-radius: 50%;
   cursor: pointer;
+  border:1px solid blue;
+  border-radius: 50%;
 }
+
 .range_moneys {
   width: 100%;
   display: flex;
